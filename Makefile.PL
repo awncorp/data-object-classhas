@@ -17,19 +17,19 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.014",
   "NAME" => "Data::Object::ClassHas",
   "PREREQ_PM" => {
-    "Data::Object::Attribute" => "0.04",
+    "Data::Object::Attributes" => "0.04",
     "routines" => 0,
     "strict" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
-    "Data::Object::Attribute" => "0.04",
+    "Data::Object::Attributes" => "0.04",
     "Test::Auto" => "0.06",
     "routines" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "2.00",
+  "VERSION" => "2.01",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -37,7 +37,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Data::Object::Attribute" => "0.04",
+  "Data::Object::Attributes" => "0.04",
   "Test::Auto" => "0.06",
   "routines" => 0,
   "strict" => 0,
