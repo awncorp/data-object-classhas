@@ -8,16 +8,13 @@ Attribute Builder for Data-Object Class
 
 # SYNOPSIS
 
-    package Example;
-
-    use Data::Object::Class;
-    use Data::Object::ClassHas;
-
-    has 'data';
-
     package main;
 
-    my $example = Example->new;
+    # use Data::Object::Class;
+
+    use Data::Object::ClassHas;
+
+    1;
 
 # DESCRIPTION
 
